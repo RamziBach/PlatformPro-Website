@@ -1,0 +1,65 @@
+.features-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-child1_container {
+  display: flex;
+  gap: 2em;
+  border-bottom: 1px solid var(--clr-dark);
+  margin-bottom: 2rem;
+}
+
+.features-child1_container:last-child {
+  border-bottom: none;
+}
+
+.Collapsible {
+  font-size: var(--fs-h3);
+  margin: 1rem 0;
+  font-weight: 400;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.features-child1_h3 {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.features-child1_p {
+  font-size: var(--fs-h5);
+  max-width: 30em;
+  margin: 2rem 0;
+}
+
+.features-cta {
+  margin-bottom: 2rem;
+}
+
+.features-arrow {
+  margin-top: 0.6rem;
+  width: 2rem;
+}
+
+.features-child2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .features-illustration {
+    width: 25em;
+  }
+}
+
+@media (max-width: 1350px) {
+  .features-parent {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
