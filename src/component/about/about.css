@@ -67,10 +67,6 @@
 }
 
 @media (max-width: 1150px) {
-  .about-child {
-    text-align: left;
-  }
-
   .about-title {
     margin-bottom: 2em;
   }
