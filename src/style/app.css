@@ -199,18 +199,39 @@ p {
   background-color: transparent;
 }
 
-.menu-btn {
-  font-size: var(--fs-body);
+.menu-btn_border {
+  letter-spacing: 1.5px;
+  font-size: var(--fs-small);
   font-weight: 300;
   text-decoration: none;
+  padding: 1em 2.25em;
+  min-width: 9em;
   color: var(--clr-light);
   background-color: transparent;
+  border: 1px solid var(--clr-accent);
   transition: all 0.3s;
 }
 
-.menu-btn:hover,
-.menu-btn:focus {
-  font-weight: 700;
+.menu-btn_border:hover,
+.menu-btn_border:focus {
+  background-color: rgba(50, 72, 95, 0.3);
+}
+
+.menu-btn_bg {
+  letter-spacing: 1.5px;
+  font-size: var(--fs-small);
+  font-weight: 300;
+  text-decoration: none;
+  padding: 1em 2.25em;
+  min-width: 9em;
+  color: var(--clr-light);
+  background-color: var(--clr-accent);
+  transition: all 0.3s;
+}
+
+.menu-btn_bg:hover,
+.menu-btn_bg:focus {
+  background-color: rgba(50, 72, 95, 0.8);
 }
 
 .lg-container {

@@ -15,15 +15,15 @@ const Header = () => {
             <div className="lg-container">
               <div className="header-parent">
                 <div id="header-socials_container" className="header-child">
-                  {/* <ul className="header-ul_parent">
-                    <li>
-                      <button className="btn-border">sign up</button>
-                    </li>
-                    <li>
-                      <button className="menu-btn">log in</button>
-                    </li>
-                  </ul> */}
                   <ul className="header-ul_parent">
+                    <li>
+                      <button className="menu-btn_bg">sign up</button>
+                    </li>
+                    <li>
+                      <button className="menu-btn_border">log in</button>
+                    </li>
+                  </ul>
+                  {/* <ul className="header-ul_parent">
                     <li>
                       <button>
                         <span>
@@ -52,7 +52,7 @@ const Header = () => {
                         </span>
                       </button>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
                 <div id="header-title_container" className="header-child">
                   <SectionLink section="home">
