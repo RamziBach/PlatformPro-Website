@@ -1,6 +1,6 @@
 @import './custom-animations.css';
-@import '../component/header/header.css';
-@import '../component/header/menu/menu.css';
+@import '../component/landing/header/header.css';
+@import '../component/landing/header/menu/menu.css';
 @import '../component/landing/landing.css';
 @import '../component/about/about.css';
 @import '../component/builder/builder.css';
@@ -193,15 +193,15 @@ p {
 
 .btn {
   font-size: var(--fs-body);
-  font-weight: 700;
+  font-weight: 300;
   text-decoration: none;
-  color: var(--clr-accent);
+  color: var(--clr-light);
   background-color: transparent;
 }
 
 .menu-btn {
   font-size: var(--fs-body);
-  font-weight: 700;
+  font-weight: 300;
   text-decoration: none;
   color: var(--clr-light);
   background-color: transparent;
@@ -210,7 +210,7 @@ p {
 
 .menu-btn:hover,
 .menu-btn:focus {
-  color: var(--clr-accent) !important;
+  font-weight: 700;
 }
 
 .lg-container {

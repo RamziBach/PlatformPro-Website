@@ -45,6 +45,9 @@
             <g transform="matrix(1.51515,0,0,1.07042,-543.788,-30)">
                 <ellipse cx="992.5" cy="532.5" rx="82.5" ry="177.5" style="fill:none;stroke:rgb(16,24,32);stroke-opacity:0.6;stroke-width:0.76px;stroke-linejoin:miter;stroke-miterlimit:1;"/>
             </g>
+            <g transform="matrix(9.27763e-17,1.51515,-1.07042,6.55445e-17,1530,-963.788)">
+                <ellipse cx="992.5" cy="532.5" rx="82.5" ry="177.5" style="fill:none;stroke:rgb(16,24,32);stroke-opacity:0.6;stroke-width:0.76px;stroke-linejoin:miter;stroke-miterlimit:1;"/>
+            </g>
             <g transform="matrix(1.07137,1.07137,-0.756903,0.756903,299.712,-926.389)">
                 <ellipse cx="992.5" cy="532.5" rx="82.5" ry="177.5" style="fill:none;stroke:rgb(16,24,32);stroke-opacity:0.6;stroke-width:0.76px;stroke-linejoin:miter;stroke-miterlimit:1;"/>
             </g>

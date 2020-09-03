@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Collapsible from 'react-collapsible';
 import { Section } from 'react-scroll-section';
 
+import arrow from '../../images/arrow-up.svg';
+
 const Features = props => {
+  const [isOpen1, setIsOpen1] = useState(true);
+  const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
+  const [isOpen4, setIsOpen4] = useState(false);
+
   return (
     <Section id="features">
       <div className="sm-container sm_section-spacing">
@@ -15,7 +22,17 @@ const Features = props => {
             <div className="features-child1_column">
               <div className="features-child1_container">
                 <div>
-                  <Collapsible open trigger="1. Powerful Design Tools">
+                  <Collapsible
+                    open={isOpen1}
+                    onOpening={() => {
+                      setIsOpen1(true);
+                      setIsOpen2(false);
+                      setIsOpen3(false);
+                      setIsOpen4(false);
+                    }}
+                    triggerDisabled={isOpen1}
+                    trigger="Powerful Design Tools"
+                  >
                     <p className="features-child1_p">
                       Bring your brand image to life using Platformpro’s
                       powerful and easy-to-use design tools. Customize
@@ -29,7 +46,17 @@ const Features = props => {
               </div>
               <div className="features-child1_container">
                 <div>
-                  <Collapsible trigger="2. Work on Desktop and Mobile">
+                  <Collapsible
+                    open={isOpen2}
+                    onOpening={() => {
+                      setIsOpen1(false);
+                      setIsOpen2(true);
+                      setIsOpen3(false);
+                      setIsOpen4(false);
+                    }}
+                    triggerDisabled={isOpen2}
+                    trigger="Work on Desktop and Mobile"
+                  >
                     <p className="features-child1_p">
                       Everyone from your audience is watching on a different
                       device, from phones, to Tv’s to desktop computers.
@@ -42,7 +69,17 @@ const Features = props => {
               </div>
               <div className="features-child1_container">
                 <div>
-                  <Collapsible trigger="3. Powerful Analytics">
+                  <Collapsible
+                    open={isOpen3}
+                    onOpening={() => {
+                      setIsOpen1(false);
+                      setIsOpen2(false);
+                      setIsOpen3(true);
+                      setIsOpen4(false);
+                    }}
+                    triggerDisabled={isOpen3}
+                    trigger="Powerful Analytics"
+                  >
                     <p className="features-child1_p">
                       Learn about your audience with in-depth analytics, from
                       watch time to page views, all in one place. Optimize your
@@ -55,7 +92,17 @@ const Features = props => {
               </div>
               <div className="features-child1_container">
                 <div>
-                  <Collapsible trigger="4. Everything and More">
+                  <Collapsible
+                    open={isOpen4}
+                    onOpening={() => {
+                      setIsOpen1(false);
+                      setIsOpen2(false);
+                      setIsOpen3(false);
+                      setIsOpen4(true);
+                    }}
+                    triggerDisabled={isOpen4}
+                    trigger="Everything and More"
+                  >
                     <p className="features-child1_p">
                       Use Platformpro to help jumpstart your career. Look
                       professional whether you’re getting your first follower or
@@ -225,6 +272,19 @@ const Features = props => {
                 strokeLinejoin="miter"
                 strokeMiterlimit={1}
                 transform="matrix(1.51515 0 0 1.07042 -1241.667 -307.879)"
+              />
+              <ellipse
+                cx={992.5}
+                cy={532.5}
+                rx={82.5}
+                ry={177.5}
+                fill="none"
+                stroke="#101820"
+                strokeOpacity={0.6}
+                strokeWidth={0.76}
+                strokeLinejoin="miter"
+                strokeMiterlimit={1}
+                transform="matrix(0 1.51515 -1.07042 0 832.121 -1241.667)"
               />
               <ellipse
                 cx={992.5}

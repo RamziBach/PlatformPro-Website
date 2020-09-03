@@ -121,35 +121,6 @@
   }
 }
 
-@media (max-height: 1020px) {
-  .interstellar-menu {
-    width: 55em;
-  }
-
-  .menu-ul_about {
-    right: 305px;
-  }
-
-  .menu-ul_builder {
-    bottom: 185px;
-    right: 225px;
-  }
-
-  .menu-ul_features {
-    bottom: 315px;
-    left: -76px;
-  }
-
-  .menu-ul_blog {
-    bottom: 180px;
-    left: 230px;
-  }
-
-  .menu-ul_brand {
-    left: 315px;
-  }
-}
-
 @media (max-width: 900px) {
   .interstellar-menu {
     width: 50em;
@@ -178,6 +149,46 @@
   .menu-ul_brand {
     top: -13px;
     left: 250px;
+  }
+}
+
+@media (max-width: 700px) {
+  .interstellar-menu,
+  .menu-ul_container {
+    display: none;
+  }
+
+  .menu-ul2 {
+    display: flex;
+  }
+}
+
+@media (max-height: 1020px) {
+  .interstellar-menu {
+    width: 55em;
+  }
+
+  .menu-ul_about {
+    right: 305px;
+  }
+
+  .menu-ul_builder {
+    bottom: 185px;
+    right: 225px;
+  }
+
+  .menu-ul_features {
+    bottom: 315px;
+    left: -76px;
+  }
+
+  .menu-ul_blog {
+    bottom: 180px;
+    left: 230px;
+  }
+
+  .menu-ul_brand {
+    left: 315px;
   }
 }
 
@@ -214,13 +225,52 @@
   }
 }
 
-@media (max-width: 700px) {
-  .interstellar-menu,
-  .menu-ul_container {
-    display: none;
+@media (max-width: 1600px) and (max-height: 1020px) {
+  .menu-ul_about {
+    right: 265px;
   }
 
-  .menu-ul2 {
-    display: flex;
+  .menu-ul_builder {
+    bottom: 160px;
+    right: 195px;
+  }
+
+  .menu-ul_features {
+    bottom: 265px;
+    left: -76px;
+  }
+
+  .menu-ul_blog {
+    bottom: 160px;
+    left: 200px;
+  }
+
+  .menu-ul_brand {
+    left: 275px;
+  }
+}
+
+@media (max-width: 1600px) and (max-height: 895px) {
+  .menu-ul_about {
+    right: 215px;
+  }
+
+  .menu-ul_builder {
+    bottom: 130px;
+    right: 155px;
+  }
+
+  .menu-ul_features {
+    bottom: 220px;
+    left: -65px;
+  }
+
+  .menu-ul_blog {
+    bottom: 130px;
+    left: 165px;
+  }
+
+  .menu-ul_brand {
+    left: 225px;
   }
 }

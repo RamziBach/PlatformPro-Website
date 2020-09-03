@@ -1,11 +1,13 @@
 import React from 'react';
 
-// import rightTree from '../../images/right-tree.svg';
+import Header from './header/Header';
+
 import logo from '../../images/light-logo_sm.svg';
 
 const Landing = props => {
   return (
     <div className="landing sm_section-spacing">
+      <Header />
       <div className="sm-container">
         <div className="landing-parent">
           <div className="title-container">

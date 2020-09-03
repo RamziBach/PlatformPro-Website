@@ -1,7 +1,6 @@
 .landing {
   background-color: var(--clr-dark);
   color: var(--clr-light);
-  padding-top: 5rem;
 }
 
 .landing-parent {
@@ -9,6 +8,7 @@
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 5rem;
+  padding-top: 5rem;
 }
 
 .title-container {

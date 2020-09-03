@@ -2,7 +2,6 @@ import React from 'react';
 
 import { ScrollingProvider } from 'react-scroll-section';
 
-import Header from './header/Header';
 import Landing from './landing/Landing';
 import About from './about/About';
 import Builder from './builder/Builder';
@@ -16,7 +15,6 @@ import '../style/app.css';
 const App = () => {
   return (
     <ScrollingProvider>
-      <Header />
       <Landing />
       <About />
       <Builder />

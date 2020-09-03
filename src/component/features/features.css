@@ -6,7 +6,7 @@
 
 .features-child1_container {
   display: flex;
-  gap: 2em;
+  /* gap: 2em; */
   border-bottom: 1px solid var(--clr-dark);
   margin-bottom: 2rem;
 }
@@ -16,11 +16,28 @@
 }
 
 .Collapsible {
-  font-size: var(--fs-h3);
   margin: 1rem 0;
+}
+
+.Collapsible__trigger {
+  color: var(--clr-dark);
+  position: relative;
+  font-size: var(--fs-h3);
   font-weight: 400;
-  line-height: 1;
+  user-select: none;
   cursor: pointer;
+  line-height: 1;
+}
+
+.Collapsible__trigger::before {
+  font-size: var(--fs-h4);
+  content: '\2022';
+  position: absolute;
+  left: -1.5em;
+  top: 0.3em;
+  display: block;
+  /* transform: rotate(90deg);
+  transition: transform 300ms; */
 }
 
 .features-child1_h3 {
@@ -40,8 +57,12 @@
 }
 
 .features-arrow {
-  margin-top: 0.6rem;
-  width: 2rem;
+  width: 1.5rem;
+}
+
+.features-arrow_btn {
+  padding: 1.75rem 2rem 1.75rem 0;
+  overflow: hidden;
 }
 
 .features-child2 {
