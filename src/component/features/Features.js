@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Collapsible from 'react-collapsible';
 import { Section } from 'react-scroll-section';
 
-import arrow from '../../images/arrow-up.svg';
+// import arrow from '../../images/arrow-up.svg';
 
 const Features = props => {
   const [isOpen1, setIsOpen1] = useState(true);
@@ -31,6 +31,11 @@ const Features = props => {
                       setIsOpen4(false);
                     }}
                     triggerDisabled={isOpen1}
+                    triggerOpenedClassName={
+                      isOpen1
+                        ? 'Collapsible__trigger isOpen'
+                        : 'Collapsible__trigger'
+                    }
                     trigger="Powerful Design Tools"
                   >
                     <p className="features-child1_p">
@@ -55,6 +60,11 @@ const Features = props => {
                       setIsOpen4(false);
                     }}
                     triggerDisabled={isOpen2}
+                    triggerOpenedClassName={
+                      isOpen2
+                        ? 'Collapsible__trigger isOpen'
+                        : 'Collapsible__trigger'
+                    }
                     trigger="Work on Desktop and Mobile"
                   >
                     <p className="features-child1_p">
@@ -78,6 +88,11 @@ const Features = props => {
                       setIsOpen4(false);
                     }}
                     triggerDisabled={isOpen3}
+                    triggerOpenedClassName={
+                      isOpen3
+                        ? 'Collapsible__trigger isOpen'
+                        : 'Collapsible__trigger'
+                    }
                     trigger="Powerful Analytics"
                   >
                     <p className="features-child1_p">
@@ -101,6 +116,11 @@ const Features = props => {
                       setIsOpen4(true);
                     }}
                     triggerDisabled={isOpen4}
+                    triggerOpenedClassName={
+                      isOpen4
+                        ? 'Collapsible__trigger isOpen'
+                        : 'Collapsible__trigger'
+                    }
                     trigger="Everything and More"
                   >
                     <p className="features-child1_p">

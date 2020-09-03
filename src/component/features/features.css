@@ -30,14 +30,19 @@
 }
 
 .Collapsible__trigger::before {
+  font-family: 'Font Awesome 5 Free';
   font-size: var(--fs-h4);
-  content: '\2022';
+  content: '\f106';
   position: absolute;
   left: -1.5em;
   top: 0.3em;
   display: block;
-  /* transform: rotate(90deg);
-  transition: transform 300ms; */
+  font-weight: 900;
+  transition: transform 300ms;
+}
+
+.isOpen::before {
+  transform: rotate(180deg);
 }
 
 .features-child1_h3 {
