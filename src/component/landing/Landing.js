@@ -21,7 +21,39 @@ const Landing = props => {
               main source of income. We’ll help you, grow, manage and monetize
               your brand to make a living doing what you love.
             </p>
+            {/* <div className="landing-btn_container"> */}
             <button className="btn-border">get started</button>
+            {/* <ul className="landing-ul_parent">
+                <li>
+                  <button>
+                    <span>
+                      <i className="landing-socials fab fa-facebook-f"></i>
+                    </span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>
+                      <i className="landing-socials fab fa-twitter"></i>
+                    </span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>
+                      <i className="landing-socials fab fa-instagram"></i>
+                    </span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>
+                      <i className="landing-socials fab fa-twitch"></i>
+                    </span>
+                  </button>
+                </li>
+              </ul> */}
+            {/* </div> */}
           </div>
           <svg
             className="landing-illustration"

@@ -19,11 +19,6 @@
   flex: 1;
 }
 
-.header-socials {
-  color: var(--clr-light);
-  font-size: var(--fs-h5);
-}
-
 #header-title_container {
   display: flex;
   justify-content: center;

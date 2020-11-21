@@ -39,6 +39,21 @@
   margin: 2rem 0;
 }
 
+/* .landing-btn_container {
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+}
+
+.landing-ul_parent {
+  display: flex;
+  gap: 1em;
+}
+.landing-socials {
+  color: var(--clr-light);
+  font-size: var(--fs-small);
+} */
+
 @media (max-width: 1300px) {
   .landing-parent {
     justify-content: center;
